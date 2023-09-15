@@ -1,8 +1,3 @@
-// ignore_for_file: non_constant_identifier_names
-
-//dbhelper ini dibuat untuk
-//membuat database, membuat tabel, proses insert, read, update dan delete
-
 import 'dart:developer';
 
 import 'package:pos_app/core/local_storage.config.dart';

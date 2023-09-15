@@ -147,8 +147,6 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
         orderId: event.orderId,
         isUpdate: true,
         status: ProductStatus.productAdd));
-
-    // print('---> ${state.selectedProducts}');
   }
 
   int getCurrentIndex(ProductState state, int idProduct) {
